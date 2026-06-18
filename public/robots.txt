@@ -1,5 +1,4 @@
-# Update the Sitemap URL after the final domain is chosen.
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://amankwatia.github.io/personal/sitemap.xml

@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Replace https://example.com with the final GitHub Pages or custom domain. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://amankwatia.github.io/personal/</loc>
   </url>
   <url>
-    <loc>https://example.com/#/about</loc>
+    <loc>https://amankwatia.github.io/personal/#/about</loc>
   </url>
   <url>
-    <loc>https://example.com/#/teaching</loc>
+    <loc>https://amankwatia.github.io/personal/#/teaching</loc>
   </url>
   <url>
-    <loc>https://example.com/#/research</loc>
+    <loc>https://amankwatia.github.io/personal/#/research</loc>
   </url>
   <url>
-    <loc>https://example.com/#/projects</loc>
+    <loc>https://amankwatia.github.io/personal/#/projects</loc>
   </url>
   <url>
-    <loc>https://example.com/#/software-solutions</loc>
+    <loc>https://amankwatia.github.io/personal/#/software-solutions</loc>
   </url>
   <url>
-    <loc>https://example.com/#/programs-events</loc>
+    <loc>https://amankwatia.github.io/personal/#/programs-events</loc>
   </url>
   <url>
-    <loc>https://example.com/#/contact</loc>
+    <loc>https://amankwatia.github.io/personal/#/contact</loc>
   </url>
 </urlset>

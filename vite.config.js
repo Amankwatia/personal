@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  // For https://USERNAME.github.io/REPOSITORY_NAME/, change base to '/REPOSITORY_NAME/'.
-  // For https://USERNAME.github.io/ or a custom domain, keep base as '/'.
-  base: '/'
+  // GitHub Pages project site: https://amankwatia.github.io/personal/
+  // Change this to '/' when moving to a custom domain or user site.
+  base: '/personal/'
 })

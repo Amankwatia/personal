@@ -13,7 +13,7 @@ export const profile = {
   philosophy:
     'Technology should be practical, accessible, secure, and useful. My work focuses on helping learners, schools, and organisations adopt digital tools that solve real problems and improve productivity.',
   photo: professionalPortrait,
-  cvPath: '/Bright_Osei_Amankwatia_CV.pdf',
+  cvPath: `${import.meta.env.BASE_URL}Bright_Osei_Amankwatia_CV.pdf`,
   roles: [
     'ICT / Computing Teacher, Presbyterian Senior High School, Berekum',
     'Form Master, Presbyterian Senior High School, Berekum',

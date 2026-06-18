@@ -50,10 +50,7 @@ The workflow file is located at `.github/workflows/deploy.yml`. It runs on pushe
 
 In GitHub, enable Pages with GitHub Actions as the source.
 
-If deploying to:
-
-- `https://USERNAME.github.io/REPOSITORY_NAME/`, set `base: '/REPOSITORY_NAME/'` in `vite.config.js`.
-- `https://USERNAME.github.io/` or a custom domain, keep `base: '/'`.
+The project is configured for `https://amankwatia.github.io/personal/` with `base: '/personal/'` in `vite.config.js`. Change the base to `/` when moving to a custom domain or GitHub user site.
 
 ## Routing
 
@@ -99,7 +96,7 @@ Basic SEO support files are in `public`:
 - `public/sitemap.xml`
 - `public/favicon.svg`
 
-Replace `https://example.com` in `robots.txt` and `sitemap.xml` after the final domain is chosen.
+The SEO files currently use `https://amankwatia.github.io/personal/`. Update them if the site moves to a custom domain.
 
 ## Future Improvements
 
