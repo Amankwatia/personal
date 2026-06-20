@@ -48,6 +48,7 @@ export const engagements = [
     type: 'School Program',
     icon: 'bi bi-laptop',
     image: debate3,
+    imagePosition: 'center 28%',
     imageAlt: 'Students taking part in the Inter-House Debate Competition',
     description:
       'Chaired the Inter-House Debate Competition, overseeing the event and ensuring smooth proceedings.',
