@@ -1,3 +1,8 @@
+import debate3 from '../assets/images/events/debate3.webp'
+import prst from '../assets/images/events/prst.webp'
+import radio from '../assets/images/events/radio.webp'
+import sles from '../assets/images/events/sles.webp'
+
 export const programAreas = [
   {
     title: 'ICT & Computing Workshops',
@@ -39,40 +44,53 @@ export const programAreas = [
 
 export const engagements = [
   {
-    title: 'ICT / Computing Teaching and Digital Skills Development',
+    title: 'Chairperson, Inter-House Debate Competition, PRSEEC, Berekum',
     type: 'School Program',
+    icon: 'bi bi-laptop',
+    image: debate3,
+    imagePosition: 'center 34%',
+    imageAlt: 'Students taking part in the Inter-House Debate Competition',
     description:
-      'Ongoing ICT and Computing instruction focused on digital literacy, computer applications, programming basics, internet safety, and responsible technology use.',
-    role: 'Facilitator / Teacher',
+      'Chaired the Inter-House Debate Competition, overseeing the event and ensuring smooth proceedings.',
+    role: 'Chairperson',
     audience: 'Senior High School students',
-    status: 'Ongoing'
+    status: 'completed / periodic' // Ongoing involvement in future editions of the competition
   },
   {
-    title: 'Electoral Commission IT Training and Support',
-    type: 'Community / National Service',
+    title: 'Presentation of Awards, Inter-House Debate Competition, PRSEEC, Berekum',
+    type: 'School Program',
+    icon: 'bi bi-person-vcard',
+    image: prst,
+    imageAlt: 'Students receiving awards at the Inter-House Debate Competition',
     description:
-      'Technology-related support and training during Electoral Commission activities, including IT technician/trainer duties and election-related digital support.',
-    role: 'IT Technician / Trainer / Verification Officer',
-    audience: 'Electoral officers and community members',
+      'Involved in the presentation of awards to winners and participants of the Inter-House Debate Competition, recognizing their efforts and achievements.',
+    role: 'Presenter',
+    audience: 'Students and school staff',
     status: 'Completed / Periodic'
   },
   {
-    title: 'School Technology Support and Digital Administration',
-    type: 'School Digital Support',
+    title: 'Students Legal Society General Meeting, AAMUSTED.',
+    type: 'Student Association Engagement',
+    icon: 'bi bi-building-gear',
+    image: sles,
+    imageAlt: 'Panel members preparing materials during a Students Legal Society General Meeting',
     description:
-      'Support for school technology systems, online registration, computer laboratory activities, and practical digital administration.',
-    role: 'ICT Support / Teacher',
-    audience: 'School administration and students',
-    status: 'Ongoing'
+      'Chaired Students Legal Society General Meeting, contributing to discussions, planning activities, and supporting the association\'s initiatives.',
+    role: 'Chairperson / President',
+    audience: 'Students and association members',
+    status: 'Completed'
   },
   {
-    title: 'Educational Technology Project Engagement',
-    type: 'Academic / EdTech Project',
+    title: 'Discussion on Cybersecurity, Data Protection and Digital Literacy, Shalom Radio Berekum 100.3 FM',
+    type: 'EdTech Outreach',
+    icon: 'bi bi-easel2',
+    image: radio,
+    imageAlt: 'Radio studio session connected to education and technology outreach',
     description:
-      'Web-based LMS and school digital system ideas aimed at improving teaching, learning, and school administration.',
-    role: 'Designer / Developer / Researcher',
-    audience: 'Schools and educators',
-    status: 'Ongoing development'
+      'Contributed to a radio discussion on cybersecurity, data protection, and digital literacy, providing insights and practical advice to the public on safe and responsible technology use.',
+    role: 'Resource Person / Guest Speaker',
+    audience: 'Educators, students, and the general public',
+    status: 'completed'
   }
 ]
 

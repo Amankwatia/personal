@@ -74,12 +74,12 @@
     </div>
   </section>
 
-  <section class="section-padding section-light" aria-labelledby="skills-title">
+  <section class="section-padding section-light skills-section" aria-labelledby="skills-title">
     <div class="container">
       <SectionTitle id="skills-title" title="Skills and capabilities" centered />
       <div class="row g-4">
         <div v-for="group in skillGroups" :key="group.title" class="col-md-6 col-lg-4">
-          <article class="info-card h-100">
+          <article class="info-card skill-group-card h-100">
             <h3 class="h5">{{ group.title }}</h3>
             <div class="d-flex flex-wrap gap-2 mt-3">
               <SkillBadge v-for="skill in group.skills" :key="skill" :label="skill" />

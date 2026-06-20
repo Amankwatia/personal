@@ -1,6 +1,0 @@
-<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle">
-  <title id="logoTitle">BOA logo placeholder</title>
-  <rect width="160" height="160" rx="36" fill="#0B2341"/>
-  <path d="M34 115V45H67C80 45 89 53 89 65C89 72 86 77 80 81C88 84 93 91 93 100C93 112 83 115 69 115H34ZM51 73H65C69 73 72 70 72 66C72 62 69 59 65 59H51V73ZM51 101H68C73 101 76 98 76 94C76 89 73 87 68 87H51V101Z" fill="#F2C65D"/>
-  <path d="M100 115L124 45H141L117 115H100Z" fill="white"/>
-</svg>

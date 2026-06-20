@@ -8,7 +8,6 @@
             <strong>{{ profile.name }}</strong>
           </div>
           <p class="footer-muted">{{ profile.mainTitle }}</p>
-          <p class="footer-muted">Built with Vue, Bootstrap, and a passion for practical digital transformation.</p>
           <a :href="profile.cvPath" class="footer-link" download>
             <i class="bi bi-download" aria-hidden="true"></i>
             Download CV

@@ -22,11 +22,14 @@
 
   <section class="section-padding section-light" aria-labelledby="engagements-title">
     <div class="container">
-      <SectionTitle id="engagements-title" title="Past and current engagements" centered />
-      <div class="row g-4">
-        <div v-for="event in engagements" :key="event.title" class="col-md-6">
-          <EventCard :event="event" />
-        </div>
+      <SectionTitle id="engagements-title" title="Programs and events gallery" centered />
+      <div class="program-gallery-grid">
+        <ProgramGalleryCard
+          v-for="(event, index) in engagements"
+          :key="event.title"
+          :event="event"
+          :featured="index === 0"
+        />
       </div>
     </div>
   </section>
@@ -54,6 +57,7 @@
 import SectionTitle from '../components/SectionTitle.vue'
 import ServiceCard from '../components/ServiceCard.vue'
 import EventCard from '../components/EventCard.vue'
+import ProgramGalleryCard from '../components/ProgramGalleryCard.vue'
 import CTASection from '../components/CTASection.vue'
 import { engagements, futurePrograms, programAreas } from '../data/programsEvents'
 </script>

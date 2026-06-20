@@ -1,11 +1,11 @@
-import professionalPortrait from '../assets/images/bright-osei-amankwatia.webp'
+import professionalPortrait from '../assets/images/profile/bright-osei-amankwatia.webp'
 
 export const profile = {
   name: 'Bright Osei Amankwatia',
   initials: 'BOA',
   email: 'amankwatiabright@gmail.com',
   studioName: 'AI & Web Solutions Studio',
-  mainTitle: 'ICT & Computing Educator | Computer Science Researcher | AI & Web Solutions Developer',
+  mainTitle: 'ICT & Computing Educator | Computer Science Researcher | AI & Web Solutions',
   shortSummary:
     'I help schools, professionals, and organisations use technology more effectively through ICT education, research-informed digital solutions, AI agents, websites, and web applications.',
   aboutSummary:
@@ -74,10 +74,11 @@ export const profile = {
   ],
   languages: ['English', 'Twi'],
   socialLinks: [
-    { label: 'LinkedIn', icon: 'bi-linkedin', url: '#', ariaLabel: 'LinkedIn profile placeholder' },
-    { label: 'GitHub', icon: 'bi-github', url: '#', ariaLabel: 'GitHub profile placeholder' },
-    { label: 'Google Scholar', icon: 'bi-mortarboard', url: '#', ariaLabel: 'Google Scholar profile placeholder' },
-    { label: 'ORCID', icon: 'bi-person-badge', url: '#', ariaLabel: 'ORCID profile placeholder' }
+    { label: 'LinkedIn', icon: 'bi-linkedin', url: 'https://www.linkedin.com/in/bright-amankwatia-317092149', ariaLabel: 'LinkedIn profile' },
+    { label: 'GitHub', icon: 'bi-github', url: 'https://github.com/Amankwatia', ariaLabel: 'GitHub profile' },
+    { label: 'X', icon: 'bi-twitter-x', url: '#', ariaLabel: 'X profile' },
+    { label: 'Google Scholar', icon: 'bi-mortarboard', url: 'https://scholar.google.com/scholar?q=%22Bright+Osei+Amankwatia%22', ariaLabel: 'Google Scholar search for Bright Osei Amankwatia' },
+    { label: 'ORCID', icon: 'bi-person-badge', url: 'https://orcid.org/0009-0000-4430-7635', ariaLabel: 'ORCID profile placeholder' }
   ]
 }
 

@@ -76,18 +76,38 @@
 
   <section class="section-padding home-plain-section home-programs-section" aria-labelledby="programs-preview-title">
     <div class="container">
-      <div class="row align-items-center g-3 home-programs-layout">
-        <div class="col-lg-8">
+      <div class="home-programs-layout">
+        <div class="home-programs-intro">
           <SectionTitle
             id="programs-preview-title"
-            title="ICT, AI, cybersecurity, and digital literacy programs"
+            title="Programs and events"
           />
-          <p class="section-description mb-0">
-            I support and facilitate programs in ICT education, digital literacy, cybersecurity awareness, AI in education, and educational technology.
-          </p>
-        </div>
-        <div class="col-lg-4 text-lg-end">
           <RouterLink to="/programs-events" class="btn btn-primary">Explore Programs & Events</RouterLink>
+        </div>
+        <div class="home-engagement-grid">
+          <RouterLink
+            v-for="event in homeEngagements"
+            :key="event.title"
+            to="/programs-events"
+            class="home-engagement-card"
+          >
+            <span class="home-engagement-media">
+              <img
+                :src="event.image"
+                :alt="event.imageAlt || event.title"
+                :style="{ objectPosition: event.imagePosition || 'center center' }"
+                width="640"
+                height="420"
+                loading="lazy"
+                decoding="async"
+              />
+              <span v-if="event.type" class="home-engagement-type">{{ event.type }}</span>
+            </span>
+            <span class="home-engagement-content">
+              <span class="home-engagement-title">{{ event.title }}</span>
+              <span class="home-engagement-role">{{ event.role }}</span>
+            </span>
+          </RouterLink>
         </div>
       </div>
     </div>
@@ -109,9 +129,11 @@ import SectionTitle from '../components/SectionTitle.vue'
 import ServiceCard from '../components/ServiceCard.vue'
 import ProjectCard from '../components/ProjectCard.vue'
 import CTASection from '../components/CTASection.vue'
-import { achievements, profile } from '../data/profile'
+import { achievements } from '../data/profile'
 import { focusAreas, featuredServices } from '../data/services'
 import { projects } from '../data/projects'
+import { engagements } from '../data/programsEvents'
 
 const featuredProjects = computed(() => projects.slice(0, 3))
+const homeEngagements = computed(() => engagements.slice(0, 2))
 </script>
