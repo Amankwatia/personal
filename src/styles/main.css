@@ -15,6 +15,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   scroll-padding-top: 88px;
 }
 
@@ -158,7 +159,8 @@ button:focus-visible,
     linear-gradient(135deg, rgba(29, 127, 131, 0.12), transparent 36%),
     linear-gradient(225deg, rgba(242, 198, 93, 0.14), transparent 42%),
     linear-gradient(180deg, rgba(247, 249, 253, 0.72), rgba(238, 244, 250, 0.64));
-  backdrop-filter: blur(16px);
+  /* Avoid repainting a full-width blur layer while the page scrolls. */
+  backdrop-filter: none;
 }
 
 .site-navbar {
@@ -178,8 +180,10 @@ button:focus-visible,
     var(--glass-shadow),
     inset 0 1px 0 rgba(255, 255, 255, 0.96),
     inset 0 -1px 0 rgba(255, 255, 255, 0.22);
-  backdrop-filter: blur(28px) saturate(180%) contrast(112%);
+  -webkit-backdrop-filter: blur(14px) saturate(145%);
+  backdrop-filter: blur(14px) saturate(145%);
   transform: translateX(-50%);
+  will-change: transform;
 }
 
 .site-navbar::before {
@@ -1062,6 +1066,23 @@ button:focus-visible,
 }
 
 @media (max-width: 991.98px) {
+  .site-navbar {
+    background: rgba(255, 255, 255, 0.94);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    box-shadow: 0 12px 30px rgba(3, 13, 26, 0.14);
+  }
+
+  .info-card,
+  .publication-card,
+  .contact-panel,
+  .cta-panel,
+  .hero-photo-frame,
+  .profile-photo-frame {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
   .navbar-nav .nav-link.router-link-active::after {
     display: none;
   }
