@@ -44,11 +44,10 @@ export const programAreas = [
 
 export const engagements = [
   {
-    title: 'Chairperson, Inter-House Debate Competition, PRSEEC, Berekum',
+    title: 'Chairperson, Inter-House Debate Competition, PRESEC, Berekum',
     type: 'School Program',
     icon: 'bi bi-laptop',
     image: debate3,
-    imagePosition: 'center 34%',
     imageAlt: 'Students taking part in the Inter-House Debate Competition',
     description:
       'Chaired the Inter-House Debate Competition, overseeing the event and ensuring smooth proceedings.',
@@ -57,7 +56,7 @@ export const engagements = [
     status: 'completed / periodic' // Ongoing involvement in future editions of the competition
   },
   {
-    title: 'Presentation of Awards, Inter-House Debate Competition, PRSEEC, Berekum',
+    title: 'Presentation of Awards, Inter-House Debate Competition, PRESEC, Berekum',
     type: 'School Program',
     icon: 'bi bi-person-vcard',
     image: prst,
